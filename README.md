@@ -1,6 +1,6 @@
 # ASC II .txt to Array Converter
 
-Simple Python script do generate arrays based on ASCII art in text files
+Simple Python script to generate arrays based on ASCII art in text files
 
 ## Utilização
 
