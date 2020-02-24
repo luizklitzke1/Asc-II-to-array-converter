@@ -14,6 +14,7 @@ Os arquivos gerados serão adicionados à pasta generated_arrays
 
 ###Asc II art informada ao programa
 
+```
                              /T /I          
                               / |/ | .-~/    
                           T\ Y  I  |/  /  _  
@@ -45,7 +46,10 @@ Os arquivos gerados serão adicionados à pasta generated_arrays
                 / .  .  . : | :!        \\ 
                (_/  /   | | j-"          ~^
                  ~-<_(_.^-~"               
-                 
+```
+
+###Array gerada
+
 ```
 [
 [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '/', 'T', ' ', '/', 'I', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '], 
