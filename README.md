@@ -6,13 +6,13 @@ Simple Python script do generate arrays based on ASCII art in text files
 
 Apenas utilizar as funções já presentes no arquivo generator.py, importando-as para outros projetos, ou executando o próprio módulo.
 
-Adicione os arquivos .txt para serem convertidos à pasta txt_samples
+Adicione os arquivos .txt para serem convertidos à pasta #### txt_samples ####.
 
-Os arquivos gerados serão adicionados à pasta generated_arrays
+Os arquivos gerados serão adicionados à pasta #### generated_arrays ####.
 
-##Exemplo
+## Exemplo
 
-###Asc II art informada ao programa
+### Asc II art informada ao programa
 
 ```
                              /T /I          
@@ -48,7 +48,7 @@ Os arquivos gerados serão adicionados à pasta generated_arrays
                  ~-<_(_.^-~"               
 ```
 
-###Array gerada
+### Array gerada
 
 ```
 [
