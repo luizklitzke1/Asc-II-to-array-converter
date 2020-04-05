@@ -1,58 +1,58 @@
 
-def converter_txt_para_array(name):
+def convert_txt_to_array(name):
 
     print(f"txt_samples/{name}.txt")
 
-    with open(f"txt_samples/{name}.txt", "r") as arquivo:
+    with open(f"txt_samples/{name}.txt", "r") as file:
     
     
-        print(f"Lendo o arquivo: {arquivo.name}")
+        print(f"Lendo o arquivo: {file.name}")
         
-        linhas = arquivo.readlines()
+        lines = file.readlines()
         
-        array_linhas = []
+        lines_array = []
         
-        for linha in linhas:
+        for line in lines:
             
-            nova_linha = []
+            new_line = []
             
-            for caracter in linha:
+            for character in line:
                 
-                if caracter != "\n":
-                    nova_linha.append(caracter)
+                if character != "\n":
+                    new_line.append(character)
                 
-            array_linhas.append(nova_linha)
+            lines_array.append(new_line)
          
-        print(f"Quantidade de linhas: {len(array_linhas)}")    
+        print(f"Amount of lines: {len(lines_array)}")    
         
-    return array_linhas 
+    return lines_array 
 
-def visualizar_array_montado(array):
+def view_array(array):
     
-    for linha in array:
-        print(''.join(map(str, linha))) 
+    for line in array:
+        print(''.join(map(str, line))) 
     
-def gerar_txt_array(array, name):
+def generate_txt(array, name):
 
     txt_array = open(f"generated_arrays/{name}_array.txt", "w")  
     
     txt_array.write("[\n")
     
-    for linha in array:
-        txt_array.write(f"{linha}, \n")
+    for line in array:
+        txt_array.write(f"{line}, \n")
     
     txt_array.write("\n]")
     
     txt_array.close()
  
-def gerar_txt_array2(array, name):
+def generate_txt2(array, name):
 
     txt_array = open(f"generated_arrays/{name}_array2.txt", "w")  
     
     txt_array.write("[")
 
-    for linha in array:
-        txt_array.write(f"{linha}")
+    for line in array:
+        txt_array.write(f"{line}")
     
     txt_array.write("]")
     
@@ -60,13 +60,13 @@ def gerar_txt_array2(array, name):
         
 if __name__ == "__main__":    
     
-    name = str(input("Informe o nome do arquivo .txt a ser convertido: "))
+    name = str(input("Inform the name of the .txt file to be converted: "))
     
-    array = converter_txt_para_array(name)
+    array = convert_txt_to_array(name)
     
-    visualizar_array_montado(array)
+    view_array(array)
 
-    gerar_txt_array(array, name)
+    generate_txt(array, name)
     
     
     
